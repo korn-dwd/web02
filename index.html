@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โรงเรียนสวรรค์อนันต์วิทยา - วิทยาการคำนวณ ม.4</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <a href="#" class="logo">Sawan<span class="gradient-text">Anan</span> CS.M4</a>
+            <div class="nav-links">
+                <a href="#home">หน้าหลัก</a>
+                <a href="#unit1">แนวคิดเชิงคำนวณ</a>
+                <a href="#unit2">แก้ปัญหา</a>
+                <a href="#unit3">โครงงาน</a>
+                <a href="#teacher">ผู้จัดทำ</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" style="background: url('hero_bg.png') no-repeat center center/cover;">
+        <div class="container">
+            <div class="hero-content reveal"
+                style="background: rgba(10, 10, 18, 0.7); padding: 3rem; border-radius: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1);">
+                <h3 class="gradient-text">รายวิชาพื้นฐานวิทยาศาสตร์และเทคโนโลยี</h3>
+                <h1>วิทยาการคำนวณ<br>ชั้นมัธยมศึกษาปีที่ 4</h1>
+                <p>เรียนรู้กระบวนการคิดวิเคราะห์ วางแผนแก้ปัญหาอย่างเป็นระบบ และสร้างสรรค์โครงงานนวัตกรรม
+                    เพื่อก้าวทันโลกยุคดิจิทัล อ้างอิงหลักสูตร สสวท. ล่าสุด</p>
+                <a href="#unit1" class="btn">เริ่มบทเรียน <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Unit 1: Computational Thinking -->
+    <section id="unit1" class="unit-section">
+        <div class="container">
+            <div class="unit-header reveal">
+                <h3>บทที่ 1</h3>
+                <h2>แนวคิดเชิงคำนวณ <span class="gradient-text">(Computational Thinking)</span></h2>
+                <p>พื้นฐานของการคิดแก้ปัญหาที่สามารถนำไปประยุกต์ใช้ในชีวิตประจำวัน</p>
+            </div>
+
+            <img src="unit1.png" alt="Computational Thinking" class="section-img reveal">
+
+            <div class="card-grid">
+                <div class="card reveal">
+                    <div class="card-icon"><i class="fas fa-sitemap"></i></div>
+                    <h4>Decomposition</h4>
+                    <p>การแตกปัญหาใหญ่เป็นปัญหาย่อย เพื่อให้จัดการได้ง่ายขึ้น</p>
+                </div>
+                <div class="card reveal">
+                    <div class="card-icon"><i class="fas fa-fingerprint"></i></div>
+                    <h4>Pattern Recognition</h4>
+                    <p>การหารูปแบบของปัญหา เพื่อลดความซับซ้อนและนำวิธีเดิมมาใช้ซ้ำ</p>
+                </div>
+                <div class="card reveal">
+                    <div class="card-icon"><i class="fas fa-layer-group"></i></div>
+                    <h4>Abstraction</h4>
+                    <p>การคิดเชิงนามธรรม มุ่งเน้นเฉพาะส่วนสำคัญ ตัดส่วนที่ไม่จำเป็นออก</p>
+                </div>
+                <div class="card reveal">
+                    <div class="card-icon"><i class="fas fa-code"></i></div>
+                    <h4>Algorithm Design</h4>
+                    <p>การออกแบบขั้นตอนวิธี เพื่อแก้ปัญหาอย่างเป็นลำดับขั้นตอนที่ชัดเจน</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Unit 2: Problem Solving -->
+    <section id="unit2" class="unit-section" style="background: rgba(255,255,255,0.02);">
+        <div class="container">
+            <div class="unit-header reveal">
+                <h3>บทที่ 2</h3>
+                <h2>การแก้ปัญหาและขั้นตอนวิธี</h2>
+                <p>กระบวนการวิเคราะห์โจทย์และออกแบบคำสั่งให้คอมพิวเตอร์ทำงาน</p>
+            </div>
+
+            <img src="unit2.png" alt="Algorithms" class="section-img reveal">
+
+            <div class="card-grid">
+                <div class="card reveal">
+                    <h3>ขั้นตอนการแก้ปัญหา</h3>
+                    <ul style="list-style: none; margin-top: 1rem; color: var(--text-muted);">
+                        <li><i class="fas fa-check-circle" style="color:var(--secondary)"></i>
+                            วิเคราะห์และกำหนดรายละเอียดของปัญหา</li>
+                        <li><i class="fas fa-check-circle" style="color:var(--secondary)"></i> การวางแผนการแก้ปัญหา
+                            (Flowchart / Pseudocode)</li>
+                        <li><i class="fas fa-check-circle" style="color:var(--secondary)"></i> การดำเนินการแก้ปัญหา</li>
+                        <li><i class="fas fa-check-circle" style="color:var(--secondary)"></i> การตรวจสอบและปรับปรุง
+                        </li>
+                    </ul>
+                </div>
+                <div class="card reveal">
+                    <h3>เครื่องมือช่วยออกแบบ</h3>
+                    <p>การใช้รหัสลำลอง (Pseudocode) และผังงาน (Flowchart)
+                        เป็นเครื่องมือสากลในการสื่อสารขั้นตอนวิธีระหว่างมนุษย์และคอมพิวเตอร์</p>
+                </div>
+                <div class="card reveal">
+                    <h3>การค้นหาและจัดเรียง</h3>
+                    <p>เรียนรู้ Algorithm พื้นฐานสำคัญ: Linear Search, Binary Search และ Sorting ประเภทต่างๆ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Unit 3: Project -->
+    <section id="unit3" class="unit-section">
+        <div class="container">
+            <div class="unit-header reveal">
+                <h3>บทที่ 3</h3>
+                <h2>การพัฒนาโครงงาน</h2>
+                <p>ประยุกต์ใช้ความรู้ทั้งหมดเพื่อสรรค์สร้างนวัตกรรม</p>
+            </div>
+
+            <img src="unit3.png" alt="Project Collaboration" class="section-img reveal">
+
+            <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center;" class="reveal">
+                <div style="flex: 1; min-width: 300px;">
+                    <div class="card" style="border: 1px solid var(--primary);">
+                        <h4 style="color:var(--primary)">Project Development Cycle</h4>
+                        <ol style="margin-left: 1.5rem; margin-top: 1rem; color: var(--text-main);">
+                            <li>กำหนดปัญหา (Problem Definition)</li>
+                            <li>ศึกษาความเป็นไปได้ (Feasibility Study)</li>
+                            <li>วิเคราะห์และออกแบบ (Analysis & Design)</li>
+                            <li>พัฒนาและทดสอบ (Development & Testing)</li>
+                            <li>เขียนรายงานและนำเสนอ (Documentation & Presentation)</li>
+                        </ol>
+                    </div>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <p style="font-size: 1.2rem;">
+                        การทำโครงงานวิทยาการคำนวณ ไม่ใช่แค่การเขียนโปรแกรม แต่คือการฝึกทักษะ
+                        <span class="gradient-text" style="font-weight: 700;">Critical Thinking</span> และ
+                        <span class="gradient-text" style="font-weight: 700;">Collaboration</span>
+                        เพื่อแก้ปัญหาจริงในสังคม
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="teacher">
+        <div class="container">
+            <h3>โรงเรียนสวรรค์อนันต์วิทยา</h3>
+            <p>กลุ่มสาระการเรียนรู้วิทยาศาสตร์และเทคโนโลยี</p>
+            <p style="font-size: 0.9rem; color: #555;">© 2024 Sawan-Anan Wittaya School. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
