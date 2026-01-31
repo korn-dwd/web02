@@ -279,6 +279,12 @@ nav {
     margin-bottom: 4rem;
 }
 
+.unit-header .btn {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+}
+
 /* Footer */
 footer {
     background: #050508;
