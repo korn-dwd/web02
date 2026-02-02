@@ -193,6 +193,72 @@ nav {
     color: var(--primary);
 }
 
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgba(10, 10, 15, 0.95);
+    min-width: 200px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+    border: var(--glass-border);
+    border-radius: 10px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.dropdown-content a {
+    color: var(--text-muted);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: 0.3s;
+    font-size: 0.95rem;
+}
+
+.dropdown-content a:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--primary);
+    padding-left: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    animation: dropdownFade 0.3s ease-out;
+}
+
+.dropbtn i {
+    margin-left: 5px;
+    font-size: 0.8em;
+    transition: 0.3s;
+}
+
+.dropdown:hover .dropbtn i {
+    transform: rotate(180deg);
+}
+
+@keyframes dropdownFade {
+    from {
+        opacity: 0;
+        transform: translate(-50%, 10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+}
+
 /* Hero */
 .hero {
     height: 100vh;
